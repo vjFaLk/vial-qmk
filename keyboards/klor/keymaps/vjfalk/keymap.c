@@ -293,7 +293,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 void keyboard_post_init_user(void) {
   // Call the post init code.
   #if HAPTIC_ENABLE
-    haptic_disable(); // disables per key haptic feedback by default
+    haptic_enable(); // disables per key haptic feedback by default
   #endif //HAPTIC ENABLE
 }
 
