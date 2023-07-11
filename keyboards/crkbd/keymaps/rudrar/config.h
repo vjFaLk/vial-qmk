@@ -38,6 +38,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_RIGHT
 // #define EE_HANDS
 
+#define I2C_DRIVER I2CD2
+#define SERIAL_PIO_USE_PIO1
+
 #define CIRQUE_PINNACLE_TAP_ENABLE
 #define CIRQUE_PINNACLE_POSITION_MODE CIRQUE_PINNACLE_RELATIVE_MODE
 #define CIRQUE_PINNACLE_SECONDARY_TAP_ENABLE

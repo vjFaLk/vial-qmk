@@ -1,3 +1,7 @@
+MCU = RP2040
+BOOTLOADER = rp2040
+CONVERT_TO = kb2040
+SERIAL_DRIVER = vendor
 MOUSEKEY_ENABLE     = no      # Mouse keys
 RGBLIGHT_ENABLE     = yes     # Enable WS2812 RGB underlight.
 VIA_ENABLE          = yes     # Enable VIA
