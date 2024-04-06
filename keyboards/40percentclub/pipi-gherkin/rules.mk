@@ -1,0 +1,9 @@
+MCU = RP2040
+BOOTLOADER = rp2040
+
+
+
+VIA_ENABLE = no
+
+EXTRAKEY_ENABLE = no
+
